@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['target']
+
+roboflow:
+  workspace: uas4stem
+  project: detection-cf2bh
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uas4stem/detection-cf2bh/dataset/2
